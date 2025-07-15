@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+             type="application/xml" 
+             schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Of Fear</title>
+            <author xml:id="MM"><persName>Michel de Montaigne</persName></author>
+            <editor role="editor"><persName>William Carew Hazlitt</persName></editor>
+            <editor role="translator"><persName>Charles Cotton</persName></editor>
+            <sponsor>
+               <orgName xml:id="GP" ref="https://gutenberg.org/">Project Gutenberg</orgName>
+            </sponsor>
+         </titleStmt>
+
+         <publicationStmt>
+            <distributor>
+               <orgName ref="#GP">Project Gutenberg</orgName>
+            </distributor>
+            <address>
+               <name type="foundation">Project Gutenberg Literary Archive Foundation</name>
+               <postBox>PO Box 16327</postBox>
+               <name type="city">Salt Lake City</name>
+               <name type="country">United States Of America</name>
+               <postCode>84116</postCode>
+            </address>
+            <idno type="URL">https://gutenberg.org/cache/epub/3600/pg3600-images.html</idno>
+            <date when="2004-10-26">October 26, 2004</date>
+            <availability status="free" xml:lang="en">
+               <p>This ebook is for the use of anyone anywhere in the United States and most other
+                  parts of the world at no cost and with almost no restrictions whatsoever. You may
+                  copy it, give it away or re-use it under the terms of the Project Gutenberg
+                  License included with this ebook or online at www.gutenberg.org. If you are not
+                  located in the United States, you will have to check the laws of the country where
+                  you are located before using this eBook.</p>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Essays</title>
+                  <author sameAs="#MM"><persName>Michel de Montaigne</persName></author>
+                  <editor role="translator"><persName>Charles Cotton</persName></editor>
+                  <editor role="editor"><persName>William Carew Hazlitt</persName></editor>
+                  <imprint>
+                     <pubPlace>Kensington</pubPlace>
+                     <date when="1877">1877</date>
+                  </imprint>
+                  <extent>1453 p.</extent>
+               </monogr>
+               <citedRange unit="chapter">17</citedRange>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+
+   <text>
+      <body>
+         <head type="mainTitle">"CHAPTER XVII——OF FEAR"</head>
+         <p> 
+            <cit>
+               <quote xml:id="cit1" xml:lang="la" rend="italic"> Obstupui, steteruntque comae et vox
+                  aucibus haesit. </quote>
+               <lb/>
+               
+               
+               <quote xml:lang="en" sameAs="#cit1"> I was amazed, my hair stood on end, and my voice
+                  stuck in my throat.</quote>  <lb/>
+               <bibl>
+                  <author ref="https://www.wikidata.org/wiki/Q1398">Virgil</author>, <title>Aeneid</title>, <citedRange unit="volume"
+                     >2</citedRange>, <citedRange unit="line">774.</citedRange>
+               </bibl>
+            </cit>
+         </p> 
+         <p> I am not so good a naturalist (as they call it) as to discern by what secret springs
+            fear has its motion in us; but, be this as it may, ‘tis a strange passion, and such a
+            one that the physicians say there is no other whatever that sooner dethrones our
+            judgment from its proper seat; which is so true, that I myself have seen very many
+            become frantic through fear; and, even in those of the best settled temper it is most
+            certain that it begets a terrible astonishment and confusion during the fit.</p>
+         <p>I omit the vulgar sort, to whom it one while represents their great-grandsires risen out
+            of their graves in their shrouds, another while werewolves, nightmares, and chimaeras;
+            but even amongst soldiers, a sort of men over whom, of all others, it ought to have the
+            least power, how often has it converted flocks of sheep into armed squadrons, reeds and
+            bullrushes into pikes and lances, friends into enemies, and the French white cross into
+            the red cross of Spain! </p>
+         <p>When <rs type=" person" xml:id="MonsieurdeBourbon"
+               ref="https://www.wikidata.org/wiki/Q506466"><persName>Monsieur de Bourbon</persName>
+            </rs> took <rs type="place" ref="https://www.wikidata.org/wiki/Q220" xml:id="Rome"
+                  ><placeName>Rome </placeName>
+            </rs> ,—[In <rs type="Event" ref="https://www.wikidata.org/wiki/Q465627"
+               xml:id="SigeofRome"> 1527</rs> ]—an ensign who was upon guard at <rs type="Place"
+               xml:id="CastelSanpietroRomano" ref="https://www.wikidata.org/wiki/Q242120"
+                  ><placeName> Borgo San Pietro</placeName>
+            </rs> was seized with such a fright upon the first alarm, that he threw himself out at a
+            breach with his colours upon his shoulder, and ran directly upon the enemy, thinking he
+            had retreated toward the inward defences of the city, and with much ado, seeing <rs
+               type="person" sameAs="#MonsieurdeBourbon"> Monsieur de Bourbon</rs> ’s people, who
+            thought it had been a sally upon them, draw up to receive him, at last came to himself,
+            and saw his error; and then facing about, he retreated full speed through the same
+            breach by which he had gone out, but not till he had first blindly advanced above three
+            hundred paces into the open field.</p>
+         <p>It did not, however, fall out so well with Captain Giulio’s ensign, at the time when St.
+            Paul was taken from us by the Comte de Bures and Monsieur de Reu, for he,<pb/> being so
+            astonished with fear as throw himsel, colours and all out of a porthole, was
+            immediately, cut to pieces by the enemy; and in the <rs type="event" ref="#SigeofRome">
+               same sige </rs> , it was a very memorable fear that so seized, contracted, and froze
+            up the heart of a gentleman, that he sank down, stone-dead, in the breach, without any
+            manner of wound or hurt at all. </p>
+         <p> The like madness does sometimes push on a whole multitude; for in <rs type="event"
+               xml:id="RomanCampaignGermania"
+               ref="https://en.wikipedia.org/wiki/Roman_campaigns_in_Germania_(12_BC_%E2%80%93_AD_16)"
+               > one of the encounters </rs> that <rs type="person" xml:id="Germanicus"
+               ref="https://www.wikidata.org/wiki/Q191039">
+               <persName> Germanicus </persName>
+            </rs> had with the Germans, two great parties were so amazed with fear that they ran two
+            opposite ways, the one to the same place from which the other had fled. —<bibl>
+               [<author ref="https://www.wikidata.org/wiki/Q2161">Tacit</author> , <title>Annal</title>
+               <biblScope unit="volume">I </biblScope>. <biblScope unit="page"
+               >63</biblScope>]</bibl>— Sometimes it adds wings to the heels, as in the two first:
+            sometimes it nails them to the ground, and fetters them from moving; as we read of the
+               <rs type="person" xml:id="EmperorTheophilus"
+               ref="https://www.wikidata.org/wiki/Q60199">Emperor theophilus</rs> , who, in a battle
+            he lost against the Agarenes, was so astonished and stupefied that he had no power to
+            fly </p>
+           <p>
+            <cit>
+               <quote xml:lang="la" rend="italics" xml:id="cit2"> Adeo pavor etiam auxilia
+                  formidat</quote> <lb/>
+
+               <quote xml:lang="en" sameAs="#cit2"> So much does fear dread even the means of
+                  safety. </quote>
+               <bibl>
+                  <author ref="https://www.wikidata.org/wiki/Q5959"> Quintus Curtius Rufus</author>, <title>Historiae</title>, <citedRange
+                     unit="volume">2</citedRange>, <citedRange unit="chapter">2.</citedRange>
+               </bibl>
+            </cit> 
+            </p>
+         <p>
+               till such time as <rs xml:id="Manuel"> Manuel </rs> , one of the principal
+            commanders of his army, having jogged and shaked him so as to rouse him out of his
+            trance, said to him, <said who="#Manuel" direct="true" aloud="true"> “Sir, if you will
+               not follow me, I will kill you; for it is better you should lose your life than, by
+               being taken, lose your empire.” </said>
+            <bibl> [<author ref="https://www.wikidata.org/wiki/Q32052">Joannes Zonaras </author> , <title>Epitome Historiarum</title>,
+               <biblScope unit="volume">III </biblScope>. </bibl>
+         </p>
+         <p> But fear does then manifest its utmost power when it throws us upon a valiant despair,
+            having before deprived us of all sense both of duty and honour.</p>
+         <p> In <rs type="event" xml:id="BattleOfTicino" ref="https://www.wikidata.org/wiki/Q378957"
+               > the first pitched battle </rs> the Romans lost against <rs type="person"
+               xml:id="Hannibal" ref="https://www.wikidata.org/wiki/Q36456">
+               <persName> Hannibal</persName></rs> , under the Consul Sempronius, a body of ten
+            thousand foot, that had taken fright, seeing no other escape for their cowardice, went
+            and threw themselves headlong upon the great battalion of the enemies, which with
+            marvellous force and fury they charged through and through, and routed with a very great
+            slaughter of the Carthaginians, thus purchasing an ignominious flight at the same price
+            they might have gained a glorious victory. <bibl> [<author ref="https://www.wikidata.org/wiki/Q2039">Livy</author>,
+                  <title>Historia</title>,
+               <biblScope unit="volume">XXI </biblScope>. <biblScope unit="page"
+               >56</biblScope>]</bibl></p>
+         <p> The thing in the world I am most afraid of is fear, that passion alone, in the trouble
+            of it, exceeding all other accidents.</p>
+         <p> What affliction could be <pb/>grater or more just than that of <rs type="person"
+               xml:id="Pompey" ref="https://www.wikidata.org/wiki/Q125414">Pompey </rs> 's friends,
+            who, in his ship,were spectators of that horrible murder? Yet so it was, that the fear
+            of the Egyptian vessels they saw coming to board them, possessed them with so great
+            alarm that it is observed they thought of nothing but calling upon the mariners to make
+            haste, and by force of oars to escape away, till being arrived at <rs type="place"
+               xml:id="Tyre" ref="https://www.wikidata.org/wiki/Q82070"><placeName>Tyre</placeName>
+            </rs> , and delivered from fear, they had leisure to turn their thoughts to the loss of
+            their captain, and to give vent to those tears and lamentations that the other more
+            potent passion had till then suspended.  </p>
+            <p> <cit>
+               <quote xml:lang="la" xml:id="cit3" rend="italics"> Tum pavor sapientiam omnem mihiex
+                  animo expectorat. </quote> <lb/>
+
+               <quote xml:lang="en" sameAs="#cit3"> Then fear drove out all intelligence from my
+                  mind.</quote>
+               <bibl>
+                  <author ref="https://www.wikidata.org/wiki/Q1541"> Cicero</author>,<title>Tuscolanae Disputationes</title>,<citedRange
+                     unit="volume">IV</citedRange>, <citedRange unit="chapter">8</citedRange>
+               </bibl>
+            </cit> </p>
+         
+
+         <p>Such as have been well rubbed in some skirmish, may yet, all wounded and bloody as they
+            are, be brought on again the next day to charge; but such as have once conceived a good
+            sound fear of the enemy, will never be made so much as to look him in the face. </p>
+         <p>Such as are in immediate fear of a losing their estates, of banishment, or of slavery,
+            live in perpetual anguish, and lose all appetite and repose; whereas such as are
+            actually poor, slaves, or exiles, ofttimes live as merrily as other folk.</p>
+         <p>And the many people who, impatient of the perpetual alarms of fear, have hanged or
+            drowned themselves, or dashed themselves to pieces, give us sufficiently to understand
+            that fear is more importunate and insupportable than death itself.</p>
+         <p>The Greeks acknowledged another kind of fear, differing from any we have spoken of yet,
+            that surprises us without any visible cause, by an impulse from heaven, so that whole
+            nations and whole armies have been struck with it.</p>
+         <p> Such a one was that which brought so wonderful a desolation upon <rs type="place"
+               xml:id="Carthage" ref="https://www.wikidata.org/wiki/Q6343">
+               <placeName>Carthage</placeName>
+            </rs> , where nothing was to be heard but affrighted voices and outcries; where the
+            inhabitants were seen to sally out of their houses as to an alarm, and there to charge,
+            wound, and kill one another, as if they had been enemies come to surprise their city.
+            All things were in disorder and fury till, with prayers and sacrifices, they had
+            appeased their gods —<bibl> [<author ref="https://www.wikidata.org/wiki/Q171241">Diodorsu Siculus</author>,<title>Historia</title>
+               <biblScope unit="volume">XV </biblScope>. <biblScope unit="page"
+               >7</biblScope>]</bibl>—; and this is that they call panic terrors. <bibl>
+                  [<author ref="https://www.wikidata.org/wiki/Q171241" >Diodorsu Siculus</author>,<title>Historia</title>
+               <biblScope unit="volume"> 3 </biblScope>.<biblScope unit="page"
+               >8</biblScope>]</bibl>
+         </p>
+
+      </body>
+   </text>
+</TEI>
