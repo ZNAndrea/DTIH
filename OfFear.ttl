@@ -1,0 +1,97 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/tei/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix schema11: <http://example.org/schema1/> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://en.wikipedia.org/wiki/Roman_campaigns_in_Germania_(12_BC_%E2%80%93_AD_16)> a schema1:Event ;
+    rdfs:label "RomanCampaignGermania" ;
+    schema1:name "RomanCampaignGermania" .
+
+wd:Q125414 a schema1:Person ;
+    rdfs:label "Pompey" ;
+    schema1:name "Pompey" .
+
+wd:Q191039 a schema1:Person ;
+    rdfs:label "Germanicus" ;
+    schema1:name "Germanicus" .
+
+wd:Q220 a schema1:Place ;
+    rdfs:label "Rome" ;
+    schema1:name "Rome" .
+
+wd:Q242120 rdfs:label "CastelSanpietroRomano" ;
+    schema1:name "CastelSanpietroRomano" .
+
+wd:Q36456 a schema1:Person ;
+    rdfs:label "Hannibal" ;
+    schema1:name "Hannibal" .
+
+wd:Q378957 a schema1:Event ;
+    rdfs:label "BattleOfTicino" ;
+    schema1:name "BattleOfTicino" .
+
+wd:Q465627 rdfs:label "SigeofRome" ;
+    schema1:name "SigeofRome" .
+
+wd:Q506466 rdfs:label "MonsieurdeBourbon" ;
+    schema1:name "MonsieurdeBourbon" .
+
+wd:Q60199 a schema1:Person ;
+    rdfs:label "EmperorTheophilus" ;
+    schema1:name "EmperorTheophilus" .
+
+wd:Q6343 a schema1:Place ;
+    rdfs:label "Carthage" ;
+    schema1:name "Carthage" .
+
+wd:Q82070 a schema1:Place ;
+    rdfs:label "Tyre" ;
+    schema1:name "Tyre" .
+
+wd:Q1398 a schema11:CreativeWork ;
+    schema11:author wd:Q1398 ;
+    schema11:citation ex:OfFear ;
+    schema11:name "Virgil" .
+
+wd:Q1541 a schema11:CreativeWork ;
+    schema11:author wd:Q1541 ;
+    schema11:citation ex:OfFear ;
+    schema11:name "Cicero" .
+
+wd:Q171241 a schema11:CreativeWork ;
+    schema11:author wd:Q171241 ;
+    schema11:citation ex:OfFear ;
+    schema11:name "Diodorsu Siculus" .
+
+wd:Q2039 a schema11:CreativeWork ;
+    schema11:author wd:Q2039 ;
+    schema11:citation ex:OfFear ;
+    schema11:name "Livy" .
+
+wd:Q2161 a schema11:CreativeWork ;
+    schema11:author wd:Q2161 ;
+    schema11:citation ex:OfFear ;
+    schema11:name "Tacit" .
+
+wd:Q32052 a schema11:CreativeWork ;
+    schema11:author wd:Q32052 ;
+    schema11:citation ex:OfFear ;
+    schema11:name "Joannes Zonaras" .
+
+wd:Q5959 a schema11:CreativeWork ;
+    schema11:author wd:Q5959 ;
+    schema11:citation ex:OfFear ;
+    schema11:name "Quintus Curtius Rufus" .
+
+ex:OfFear a schema1:CreativeWork ;
+    dc:creator "Michel de Montaigne" ;
+    dc:publisher "Project Gutenberg" ;
+    dc:title "Of Fear" ;
+    dcterms:contributor "Charles Cotton",
+        "William Carew Hazlitt" ;
+    dcterms:issued "2004-10-26"^^xsd:date .
+
