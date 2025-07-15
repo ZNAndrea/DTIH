@@ -20,7 +20,6 @@
       <body>
         
         
-        <!-- aggiungere e rimuovere la sezione medatati da qui -->
         
  <!-- organizzare metadata -->
         
